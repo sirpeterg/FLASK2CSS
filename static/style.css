@@ -1,0 +1,32 @@
+body {
+    display: block;
+    margin-top: 100px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    background: var(--color);
+    font-weight: bold;
+    font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+    position: relative;
+    opacity: 0.6; 
+  }
+  input {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+    width: 180px;
+    height: 20px;
+    text-align: center;
+    border-radius: 4px;
+    font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+    font-weight: bold;
+    background: rgb(188, 65, 35);
+    border: none;
+  }
+  
+  input:hover {
+    background-color: rgba(158, 123, 59, 0.7);
+    opacity: 0.7;
+  }
+  
